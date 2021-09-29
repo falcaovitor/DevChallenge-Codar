@@ -1,0 +1,38 @@
+.container
+{
+    max-width: 1100px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    margin-top: 6%;
+}
+.container .introduction_into
+{
+    margin-top: 16%;
+    margin-left: 15%;
+}
+.container .introduction_into h1
+{
+    font-size: 60px;
+    color: var(--color-primary);
+}
+.container .introduction_into button
+{
+    margin-top: 40px;
+    outline: none;
+    background: var(--color-primary);
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    width: 50%;
+    height: 10%;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+}
+.container .introduction_into button:hover
+{
+    background: #ff0000;
+    transition: .8s;
+}

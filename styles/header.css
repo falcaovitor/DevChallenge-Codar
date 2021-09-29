@@ -1,0 +1,57 @@
+header
+{
+    max-width: 1100px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+header label #sign-one,
+label #sign-two
+{
+   font-size: 30px;
+   color: var(--color-primary); 
+   cursor: pointer;
+   display: none;
+}
+header #res-menu
+{
+   display: none; 
+}
+header h1 i
+{
+    font-size: 50px;
+    color: #D6000D;
+}
+header ul
+{
+    list-style: none;
+    display: flex;
+}
+header ul li
+{
+    margin: 0 30px;
+    width: 60px;
+}
+header ul li a
+{
+    font-size: 20px;
+    color: black;
+    height: 40px;
+    padding: 5px 20px 5px 20px;
+}
+header .active
+{
+    background: #D6000D;
+    border-radius: 8px 8px 8px 8px;
+    color: white;
+}
+header ul li a:hover
+{
+    background: #D6000D;
+    color: white;
+    transition: .8s;
+    border-radius: 8px 8px 8px 8px;
+}

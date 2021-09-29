@@ -1,0 +1,51 @@
+footer
+{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    color: white;
+    height: 200px;
+    
+}
+footer .log
+{
+    margin-top: 40px;
+}
+footer .log p
+{
+    margin-top: 10px;
+}
+footer .know
+{
+    margin-top: 40px; 
+}
+footer .know p
+{
+    margin-top: 10px;
+}
+footer .contact
+{
+    margin-top: 40px; 
+}
+footer .contact a
+{
+    color: white; 
+    border-bottom: 1px solid white;
+}
+footer .contact p
+{
+    margin-top: 10px;
+}
+footer .social 
+{
+    margin-top: 40px; 
+}
+footer .social span i
+{
+    color: var(--color-primary);
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px;
+}

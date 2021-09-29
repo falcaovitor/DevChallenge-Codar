@@ -1,0 +1,34 @@
+@media(max-width: 900px)
+{
+    .container
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .container .introduction_img img
+    {
+        margin-left: 40px;
+        height: 250px;
+        width: 80%;
+    }
+    .container .introduction_into
+    {
+        margin-top: 10%;
+        text-align: center;
+        margin-right: 15%;
+    }
+    .container .introduction_into h2
+    {
+        font-size: 20px;
+    }
+    .container .introduction_into h1
+    {
+        font-size: 40px;
+    }
+    .container .introduction_into button
+    {
+        width: 90%;
+        height: 50px;
+    }
+}

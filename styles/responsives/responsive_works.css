@@ -1,0 +1,33 @@
+@media(max-width: 900px)
+{
+.works
+{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.works p
+{
+    margin-top: 3%;
+    
+}
+.works p::before
+{
+    position: relative;
+    margin-left: 20%;
+}
+.works input
+{
+    margin-top: 2%;
+    width: 60%;
+    height: 3rem;
+    background: lightgray;
+}
+.works button
+{
+    margin-top: 2%;
+    width: 60%;
+    height: 3rem;
+}
+}

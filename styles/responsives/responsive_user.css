@@ -1,0 +1,12 @@
+@media(max-width: 900px)
+{
+    .user_one
+    {
+        margin-top: 20%;
+        padding: 5px 10px 15px 10px;
+    }
+    .user_one .contents
+{
+    margin-top: 5%;
+}
+}

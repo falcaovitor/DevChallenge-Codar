@@ -1,0 +1,70 @@
+@media(max-width: 900px)
+{
+    header
+    {
+    display: flex;
+    flex-direction: column;
+    }
+    header ul
+    {
+        margin-top: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        transition: .5s;
+        background: var(--color-primary);
+        position: fixed;
+        z-index: 10;
+        left: -900px;
+    }
+    header ul li
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+
+    }
+    header ul li a
+    {
+        font-size: 30px;
+    }
+    header label #sign-one
+    {
+        display: flex;
+    }
+    header label #sign-one,
+    label #sign-two
+    {
+        animation: colors 5s ease-in-out infinite;
+    }
+    header #res-menu:checked ~ ul
+    {
+        left: 0;
+    }
+    header #res-menu:checked ~ label #sign-one
+    {
+        display: none;
+    }
+    header #res-menu:checked ~ label #sign-two
+    {
+        display: flex;
+    }
+    @keyframes colors
+    {
+      20%
+      {
+        color: blue;
+      } 
+      50%
+      {
+        color: rgb(32, 32, 77);
+      } 
+      100%
+      {
+        color: green;
+      }  
+    }
+}

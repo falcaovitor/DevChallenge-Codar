@@ -1,0 +1,37 @@
+@media(max-width: 900px)
+{
+    footer 
+    {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    }
+    footer .log
+    {
+        text-align: center;
+    }
+    footer .log h1
+    {
+        font-size: 60px;
+    }
+    footer .log p
+    {
+        font-size: 20px;
+    }
+    footer .know
+    {
+        margin-left: 10%;
+    }
+    footer .contact
+    {
+        margin-left: 10%;
+    }
+    footer .social
+    {
+        margin-left: 10%;
+    }
+    footer .social span i
+    {
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codar | página inicial</title>
+    <link rel="icon" href="img/video_call.png">
+    <link rel="stylesheet" href="styles/universal.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/introductions.css">
+    <link rel="stylesheet" href="styles/works.css">
+    <link rel="stylesheet" href="styles/user.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <!--Responsive-->
+    <link rel="stylesheet" href="styles/responsives/responsive_header.css">
+    <link rel="stylesheet" href="styles/responsives/responsive_introduction.css">
+    <link rel="stylesheet" href="styles/responsives/responsive_works.css">
+    <link rel="stylesheet" href="styles/responsives/responsive_user.css">
+    <link rel="stylesheet" href="styles/responsives/responsive_footer.css">
+    <link rel="stylesheet" href="styles/button_top.css">
+    <script src="https://kit.fontawesome.com/c8fc454d9e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <h1><i><strong>Codar</strong></i>.</h1>
+        <input type="checkbox" id="res-menu">
+        <label for="res-menu">
+            <i class="fa fa-bars" id="sign-one"></i>
+            <i class="fa fa-times" id="sign-two"></i>
+        </label>
+        <ul>
+            <li><a href="#"><b>Início</b></a></li>
+            <li><a href="#"><b>Serviços</b></a></li>
+            <li><a href="#"><b>Contato</b></a></li>
+            <li><a class="active" href="#"><b>Login</b></a></li>    
+        </ul>
+    </header>
+    <div class="container">
+            <div class="introduction_img">
+                <img src="img/video_call.png" alt="" width="100%" height="auto">
+            </div>
+            <div class="introduction_into">
+                <h2>Alavanque seu negócio com um</h2>
+                <h1>Website incrível</h1>
+                <button><strong>Solicitar orçamento</strong></button>
+            </div>
+            <div class="works">
+                <p>Domío personalizado</p>
+                <p>Hospedagem</p>
+                <p>Site responsivo</p>
+                <p>Redes Sociais</p>
+                <p>Chat online</p>
+                <p>Blog integrado</p>
+                <h2>Nossa equipe está à disposição!</h2>
+                <form action="numbers_back/form.php" method="POST">
+                    <input type="number" name="telephone" placeholder="Celular" required>
+                    <button type="submit">Ligamos para você</button>
+                </form>
+            </div>
+            <div class="works_img">
+                <img src="img/coding_.png" alt="" width="100%" height="auto">
+            </div>
+            <div class="user_one">
+                    <img src="img/user.png" alt="" width="90px" height="90px">
+                    <div class="contents">
+                        <p>Já tive experiências com outras 4 empresas<br>
+                           da área e a Codar é sem sombra de dúvidas<br>
+                           superior em todos os aspectos
+                        </p>
+                        <h2>Pedor Ferreira</h2>
+                        <p><strong>Construtora Minari</strong></p>
+                    </div>
+            </div>
+            <div class="user_one">
+                    <img src="img/user.png" alt="" width="90px" height="90px">
+                    <div class="contents">
+                        <p>Processos bem simples e criação de um<br>
+                           site exatamente como a minha escola<br>
+                           queria!
+                        </p>
+                        <h2>Maria Rita</h2>
+                        <p><strong>Escola Criança Feliz</strong></p>
+                    </div>
+            </div>
+    </div>
+    <a id="subirTopo">Subir</a>
+    <script src="jquery/jquery.min.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+            $("#subirTopo").hide();
+            $('a#subirTopo').click(function()
+            {
+                $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+            });
+            $(window).scroll(function()
+            {
+                if ($(this).scrollTop() > 600)
+                {
+                    $('#subirTopo').fadeIn();
+                } 
+                else
+                {
+                $('#subirTopo').fadeOut();
+                }
+            });
+            });
+
+    </script>
+    <footer>
+        <div class="log">
+            <h1><i><strong>Codar</strong></i>.</h1>
+            <p>Criamos websites incriveis</p>
+        </div>
+        <div class="know">
+            <h2>Sobre</h2>
+            <p>Amamos criar soluções<br>
+               e entregar sites incriveis
+            </p>
+        </div>
+        <div class="contact">
+            <h2>Contato</h2>
+            <p>123 Av Manjar - Nárnia<br>
+               +55 96 2321-3131<br>
+            <a href="mailto:contato@codar.com">contato@codar.com</a> 
+            </p>
+        </div>
+        <div class="social">
+            <h2>Redes Sociais</h2>
+            <span><i class="fab fa-facebook-square"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-twitter-square"></i></span>
+        </div>
+    </footer>
+</body>
+</html>

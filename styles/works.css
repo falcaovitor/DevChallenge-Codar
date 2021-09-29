@@ -1,0 +1,60 @@
+.works
+{
+    margin-top: 30%;
+}
+.works_img img
+{
+    margin-top: 10%;
+}
+.works p
+{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.works p::before
+{
+    content: url('../img/right.fw.png');
+    margin-right: 15px;
+}
+.works h2
+{
+    margin-top: 60px;
+}
+.works form
+{
+    height: 300px;
+}
+.works input
+{
+    outline: none;
+    background: lightgray;
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    width: 40%;
+    height: 15%;
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+}
+::-webkit-input-placeholder 
+{
+    color: rgb(78, 78, 78);
+    padding: 0px 0px 0px 6px;
+}
+.works button
+{
+    outline: none;
+    background: var(--color-primary);
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    height: 15%;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+}
+.works button:hover
+{
+    background: #ff0000;
+    transition: .8s;
+}
